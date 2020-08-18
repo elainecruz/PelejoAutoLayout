@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86BD6ADE24EC1F76000920CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6ADD24EC1F76000920CF /* AppDelegate.swift */; };
+		86BD6AE024EC1F76000920CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6ADF24EC1F76000920CF /* SceneDelegate.swift */; };
+		86BD6AE224EC1F76000920CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6AE124EC1F76000920CF /* ViewController.swift */; };
+		86BD6AE524EC1F76000920CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BD6AE324EC1F76000920CF /* Main.storyboard */; };
+		86BD6AE724EC1F78000920CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86BD6AE624EC1F78000920CF /* Assets.xcassets */; };
+		86BD6AEA24EC1F78000920CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BD6AE824EC1F78000920CF /* LaunchScreen.storyboard */; };
+		86BD6AF524EC1F78000920CF /* PelejoAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6AF424EC1F78000920CF /* PelejoAutoLayoutTests.swift */; };
+		86BD6B0024EC1F78000920CF /* PelejoAutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6AFF24EC1F78000920CF /* PelejoAutoLayoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86BD6AF124EC1F78000920CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86BD6AD224EC1F76000920CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86BD6AD924EC1F76000920CF;
+			remoteInfo = PelejoAutoLayout;
+		};
+		86BD6AFC24EC1F78000920CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86BD6AD224EC1F76000920CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86BD6AD924EC1F76000920CF;
+			remoteInfo = PelejoAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86BD6ADA24EC1F76000920CF /* PelejoAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PelejoAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BD6ADD24EC1F76000920CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86BD6ADF24EC1F76000920CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86BD6AE124EC1F76000920CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86BD6AE424EC1F76000920CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86BD6AE624EC1F78000920CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86BD6AE924EC1F78000920CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86BD6AEB24EC1F78000920CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BD6AF024EC1F78000920CF /* PelejoAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelejoAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BD6AF424EC1F78000920CF /* PelejoAutoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelejoAutoLayoutTests.swift; sourceTree = "<group>"; };
+		86BD6AF624EC1F78000920CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BD6AFB24EC1F78000920CF /* PelejoAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelejoAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BD6AFF24EC1F78000920CF /* PelejoAutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelejoAutoLayoutUITests.swift; sourceTree = "<group>"; };
+		86BD6B0124EC1F78000920CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86BD6AD724EC1F76000920CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BD6AED24EC1F78000920CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BD6AF824EC1F78000920CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86BD6AD124EC1F76000920CF = {
+			isa = PBXGroup;
+			children = (
+				86BD6ADC24EC1F76000920CF /* PelejoAutoLayout */,
+				86BD6AF324EC1F78000920CF /* PelejoAutoLayoutTests */,
+				86BD6AFE24EC1F78000920CF /* PelejoAutoLayoutUITests */,
+				86BD6ADB24EC1F76000920CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86BD6ADB24EC1F76000920CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86BD6ADA24EC1F76000920CF /* PelejoAutoLayout.app */,
+				86BD6AF024EC1F78000920CF /* PelejoAutoLayoutTests.xctest */,
+				86BD6AFB24EC1F78000920CF /* PelejoAutoLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86BD6ADC24EC1F76000920CF /* PelejoAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				86BD6ADD24EC1F76000920CF /* AppDelegate.swift */,
+				86BD6ADF24EC1F76000920CF /* SceneDelegate.swift */,
+				86BD6AE124EC1F76000920CF /* ViewController.swift */,
+				86BD6AE324EC1F76000920CF /* Main.storyboard */,
+				86BD6AE624EC1F78000920CF /* Assets.xcassets */,
+				86BD6AE824EC1F78000920CF /* LaunchScreen.storyboard */,
+				86BD6AEB24EC1F78000920CF /* Info.plist */,
+			);
+			path = PelejoAutoLayout;
+			sourceTree = "<group>";
+		};
+		86BD6AF324EC1F78000920CF /* PelejoAutoLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				86BD6AF424EC1F78000920CF /* PelejoAutoLayoutTests.swift */,
+				86BD6AF624EC1F78000920CF /* Info.plist */,
+			);
+			path = PelejoAutoLayoutTests;
+			sourceTree = "<group>";
+		};
+		86BD6AFE24EC1F78000920CF /* PelejoAutoLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86BD6AFF24EC1F78000920CF /* PelejoAutoLayoutUITests.swift */,
+				86BD6B0124EC1F78000920CF /* Info.plist */,
+			);
+			path = PelejoAutoLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86BD6AD924EC1F76000920CF /* PelejoAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BD6B0424EC1F78000920CF /* Build configuration list for PBXNativeTarget "PelejoAutoLayout" */;
+			buildPhases = (
+				86BD6AD624EC1F76000920CF /* Sources */,
+				86BD6AD724EC1F76000920CF /* Frameworks */,
+				86BD6AD824EC1F76000920CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PelejoAutoLayout;
+			productName = PelejoAutoLayout;
+			productReference = 86BD6ADA24EC1F76000920CF /* PelejoAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86BD6AEF24EC1F78000920CF /* PelejoAutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BD6B0724EC1F78000920CF /* Build configuration list for PBXNativeTarget "PelejoAutoLayoutTests" */;
+			buildPhases = (
+				86BD6AEC24EC1F78000920CF /* Sources */,
+				86BD6AED24EC1F78000920CF /* Frameworks */,
+				86BD6AEE24EC1F78000920CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86BD6AF224EC1F78000920CF /* PBXTargetDependency */,
+			);
+			name = PelejoAutoLayoutTests;
+			productName = PelejoAutoLayoutTests;
+			productReference = 86BD6AF024EC1F78000920CF /* PelejoAutoLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86BD6AFA24EC1F78000920CF /* PelejoAutoLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BD6B0A24EC1F78000920CF /* Build configuration list for PBXNativeTarget "PelejoAutoLayoutUITests" */;
+			buildPhases = (
+				86BD6AF724EC1F78000920CF /* Sources */,
+				86BD6AF824EC1F78000920CF /* Frameworks */,
+				86BD6AF924EC1F78000920CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86BD6AFD24EC1F78000920CF /* PBXTargetDependency */,
+			);
+			name = PelejoAutoLayoutUITests;
+			productName = PelejoAutoLayoutUITests;
+			productReference = 86BD6AFB24EC1F78000920CF /* PelejoAutoLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86BD6AD224EC1F76000920CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Elaine  Cruz";
+				TargetAttributes = {
+					86BD6AD924EC1F76000920CF = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					86BD6AEF24EC1F78000920CF = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 86BD6AD924EC1F76000920CF;
+					};
+					86BD6AFA24EC1F78000920CF = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 86BD6AD924EC1F76000920CF;
+					};
+				};
+			};
+			buildConfigurationList = 86BD6AD524EC1F76000920CF /* Build configuration list for PBXProject "PelejoAutoLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86BD6AD124EC1F76000920CF;
+			productRefGroup = 86BD6ADB24EC1F76000920CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86BD6AD924EC1F76000920CF /* PelejoAutoLayout */,
+				86BD6AEF24EC1F78000920CF /* PelejoAutoLayoutTests */,
+				86BD6AFA24EC1F78000920CF /* PelejoAutoLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86BD6AD824EC1F76000920CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BD6AEA24EC1F78000920CF /* LaunchScreen.storyboard in Resources */,
+				86BD6AE724EC1F78000920CF /* Assets.xcassets in Resources */,
+				86BD6AE524EC1F76000920CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BD6AEE24EC1F78000920CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BD6AF924EC1F78000920CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86BD6AD624EC1F76000920CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BD6AE224EC1F76000920CF /* ViewController.swift in Sources */,
+				86BD6ADE24EC1F76000920CF /* AppDelegate.swift in Sources */,
+				86BD6AE024EC1F76000920CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BD6AEC24EC1F78000920CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BD6AF524EC1F78000920CF /* PelejoAutoLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BD6AF724EC1F78000920CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BD6B0024EC1F78000920CF /* PelejoAutoLayoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86BD6AF224EC1F78000920CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86BD6AD924EC1F76000920CF /* PelejoAutoLayout */;
+			targetProxy = 86BD6AF124EC1F78000920CF /* PBXContainerItemProxy */;
+		};
+		86BD6AFD24EC1F78000920CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86BD6AD924EC1F76000920CF /* PelejoAutoLayout */;
+			targetProxy = 86BD6AFC24EC1F78000920CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86BD6AE324EC1F76000920CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86BD6AE424EC1F76000920CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86BD6AE824EC1F78000920CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86BD6AE924EC1F78000920CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86BD6B0224EC1F78000920CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86BD6B0324EC1F78000920CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86BD6B0524EC1F78000920CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6PW3HL3N4;
+				INFOPLIST_FILE = PelejoAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elaine.PelejoAutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86BD6B0624EC1F78000920CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6PW3HL3N4;
+				INFOPLIST_FILE = PelejoAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elaine.PelejoAutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86BD6B0824EC1F78000920CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6PW3HL3N4;
+				INFOPLIST_FILE = PelejoAutoLayoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elaine.PelejoAutoLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PelejoAutoLayout.app/PelejoAutoLayout";
+			};
+			name = Debug;
+		};
+		86BD6B0924EC1F78000920CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6PW3HL3N4;
+				INFOPLIST_FILE = PelejoAutoLayoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elaine.PelejoAutoLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PelejoAutoLayout.app/PelejoAutoLayout";
+			};
+			name = Release;
+		};
+		86BD6B0B24EC1F78000920CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6PW3HL3N4;
+				INFOPLIST_FILE = PelejoAutoLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elaine.PelejoAutoLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PelejoAutoLayout;
+			};
+			name = Debug;
+		};
+		86BD6B0C24EC1F78000920CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6PW3HL3N4;
+				INFOPLIST_FILE = PelejoAutoLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elaine.PelejoAutoLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PelejoAutoLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86BD6AD524EC1F76000920CF /* Build configuration list for PBXProject "PelejoAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BD6B0224EC1F78000920CF /* Debug */,
+				86BD6B0324EC1F78000920CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BD6B0424EC1F78000920CF /* Build configuration list for PBXNativeTarget "PelejoAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BD6B0524EC1F78000920CF /* Debug */,
+				86BD6B0624EC1F78000920CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BD6B0724EC1F78000920CF /* Build configuration list for PBXNativeTarget "PelejoAutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BD6B0824EC1F78000920CF /* Debug */,
+				86BD6B0924EC1F78000920CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BD6B0A24EC1F78000920CF /* Build configuration list for PBXNativeTarget "PelejoAutoLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BD6B0B24EC1F78000920CF /* Debug */,
+				86BD6B0C24EC1F78000920CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86BD6AD224EC1F76000920CF /* Project object */;
+}
