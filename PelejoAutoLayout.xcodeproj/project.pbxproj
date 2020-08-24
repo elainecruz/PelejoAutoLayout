@@ -15,6 +15,13 @@
 		86BD6AEA24EC1F78000920CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BD6AE824EC1F78000920CF /* LaunchScreen.storyboard */; };
 		86BD6AF524EC1F78000920CF /* PelejoAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6AF424EC1F78000920CF /* PelejoAutoLayoutTests.swift */; };
 		86BD6B0024EC1F78000920CF /* PelejoAutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6AFF24EC1F78000920CF /* PelejoAutoLayoutUITests.swift */; };
+		86BD6B0E24EC201D000920CF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6B0D24EC201D000920CF /* MenuViewController.swift */; };
+		86BD6B1424EC44C6000920CF /* xilosa_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86BD6B1324EC44C6000920CF /* xilosa_.ttf */; };
+		86BD6B1624EC44D0000920CF /* Underdog-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86BD6B1524EC44D0000920CF /* Underdog-Regular.ttf */; };
+		86BD6B1824EC4967000920CF /* CapitulosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6B1724EC4967000920CF /* CapitulosViewController.swift */; };
+		86BD6B1A24EEBD88000920CF /* ConquistasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6B1924EEBD88000920CF /* ConquistasViewController.swift */; };
+		86BD6B1C24EEDA3F000920CF /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6B1B24EEDA3F000920CF /* ConfigViewController.swift */; };
+		86BD6B1E24EF11D5000920CF /* CapitulosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD6B1D24EF11D5000920CF /* CapitulosTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		86BD6AFB24EC1F78000920CF /* PelejoAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelejoAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86BD6AFF24EC1F78000920CF /* PelejoAutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelejoAutoLayoutUITests.swift; sourceTree = "<group>"; };
 		86BD6B0124EC1F78000920CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BD6B0D24EC201D000920CF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		86BD6B1324EC44C6000920CF /* xilosa_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = xilosa_.ttf; sourceTree = "<group>"; };
+		86BD6B1524EC44D0000920CF /* Underdog-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Underdog-Regular.ttf"; sourceTree = "<group>"; };
+		86BD6B1724EC4967000920CF /* CapitulosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitulosViewController.swift; sourceTree = "<group>"; };
+		86BD6B1924EEBD88000920CF /* ConquistasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasViewController.swift; sourceTree = "<group>"; };
+		86BD6B1B24EEDA3F000920CF /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		86BD6B1D24EF11D5000920CF /* CapitulosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitulosTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,8 @@
 		86BD6ADC24EC1F76000920CF /* PelejoAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				86BD6B1524EC44D0000920CF /* Underdog-Regular.ttf */,
+				86BD6B1324EC44C6000920CF /* xilosa_.ttf */,
 				86BD6ADD24EC1F76000920CF /* AppDelegate.swift */,
 				86BD6ADF24EC1F76000920CF /* SceneDelegate.swift */,
 				86BD6AE124EC1F76000920CF /* ViewController.swift */,
@@ -106,6 +122,11 @@
 				86BD6AE624EC1F78000920CF /* Assets.xcassets */,
 				86BD6AE824EC1F78000920CF /* LaunchScreen.storyboard */,
 				86BD6AEB24EC1F78000920CF /* Info.plist */,
+				86BD6B0D24EC201D000920CF /* MenuViewController.swift */,
+				86BD6B1724EC4967000920CF /* CapitulosViewController.swift */,
+				86BD6B1924EEBD88000920CF /* ConquistasViewController.swift */,
+				86BD6B1B24EEDA3F000920CF /* ConfigViewController.swift */,
+				86BD6B1D24EF11D5000920CF /* CapitulosTableViewCell.swift */,
 			);
 			path = PelejoAutoLayout;
 			sourceTree = "<group>";
@@ -234,7 +255,9 @@
 			files = (
 				86BD6AEA24EC1F78000920CF /* LaunchScreen.storyboard in Resources */,
 				86BD6AE724EC1F78000920CF /* Assets.xcassets in Resources */,
+				86BD6B1424EC44C6000920CF /* xilosa_.ttf in Resources */,
 				86BD6AE524EC1F76000920CF /* Main.storyboard in Resources */,
+				86BD6B1624EC44D0000920CF /* Underdog-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +284,12 @@
 			files = (
 				86BD6AE224EC1F76000920CF /* ViewController.swift in Sources */,
 				86BD6ADE24EC1F76000920CF /* AppDelegate.swift in Sources */,
+				86BD6B1A24EEBD88000920CF /* ConquistasViewController.swift in Sources */,
 				86BD6AE024EC1F76000920CF /* SceneDelegate.swift in Sources */,
+				86BD6B1C24EEDA3F000920CF /* ConfigViewController.swift in Sources */,
+				86BD6B0E24EC201D000920CF /* MenuViewController.swift in Sources */,
+				86BD6B1E24EF11D5000920CF /* CapitulosTableViewCell.swift in Sources */,
+				86BD6B1824EC4967000920CF /* CapitulosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
